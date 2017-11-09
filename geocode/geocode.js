@@ -1,8 +1,5 @@
 const request = require('request');
 
-const API_KEY = 'AIzaSyDJm4tctOf4GAHy5bEMu0rIrPpm4mbOM_s';
-
-const KEY = `&key=${API_KEY}`;
 
 
 const geocodeAddress = (address, callback) => {
